@@ -2533,13 +2533,13 @@ MonoBehaviour:
   moveSpeed: 5
   solidObjectsLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   interactableLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
   grassLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!114 &418839467
 MonoBehaviour:
   m_ObjectHideFlags: 0
