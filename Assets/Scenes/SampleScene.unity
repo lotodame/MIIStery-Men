@@ -2728,10 +2728,10 @@ MonoBehaviour:
   moveSpeed: 5
   solidObjectsLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   grassLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!114 &418839467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2892,7 +2892,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -4172,10 +4172,10 @@ MonoBehaviour:
   moveSpeed: 5
   solidObjectsLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   grassLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!114 &1481974270
 MonoBehaviour:
   m_ObjectHideFlags: 0
