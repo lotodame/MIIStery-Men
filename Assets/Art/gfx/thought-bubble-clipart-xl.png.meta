@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      thought-bubble-clipart-xl_0: 1234745397935007287
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
