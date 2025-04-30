@@ -31,7 +31,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2536771236888576
-    m_Localized: hij zilong
+    m_Localized: hij zilong j
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2540047428714496
+    m_Localized: hi zilong 2 j
     m_Metadata:
       m_Items: []
   references:

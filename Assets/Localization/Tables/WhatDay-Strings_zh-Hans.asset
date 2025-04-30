@@ -23,7 +23,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2536771236888576
-    m_Localized: hiiiiiiiiiiii zilong
+    m_Localized: hiiiiiiiiiiii zilong c
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2540047428714496
+    m_Localized: hi zilong 2 c
     m_Metadata:
       m_Items: []
   references:

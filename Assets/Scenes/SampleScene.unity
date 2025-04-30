@@ -2786,7 +2786,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &418839469
@@ -3062,9 +3062,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
     lines:
-    - 'I am item three. '
-    - 'I am a great yellow ball. '
-    - What's up!
+    - m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!61 &584482605
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3666,8 +3690,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
     lines:
-    - 'Hi, how are you? What day is it today? '
-    - 'How could we not talk about family when family is all that we got? '
+    - m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: 
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1023457512
 GameObject:
   m_ObjectHideFlags: 0
@@ -3883,8 +3924,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
     lines:
-    - This is the second item.
-    - 'I am a great blue ball. '
+    - m_TableReference:
+        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
+      m_TableEntryReference:
+        m_KeyId: 2536771236888576
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
+      m_TableEntryReference:
+        m_KeyId: 2540047428714496
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!61 &1148674511
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4995,7 +5053,7 @@ SpriteRenderer:
   m_Size: {x: 3.875, y: 5.6875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1481974268
