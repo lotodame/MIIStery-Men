@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Localization;
 
 public class DialogManagerA : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class DialogManagerA : MonoBehaviour
 
     public static DialogManagerA Instance { get; private set; }
 
-    private void Awake () { Instance = this; }
+    private void Awake() { Instance = this; }
 
     DialogA dialog;
     int currentLine = 0;
@@ -26,20 +27,20 @@ public class DialogManagerA : MonoBehaviour
         yield return new WaitForEndOfFrame();
 
         OnShowDialog?.Invoke();
-        
+
         this.dialog = dialog;
         dialogBox.SetActive(true);
-        StartCoroutine(TypeDialog(dialog.Lines[0]));
+        yield return TypeLocalizedDialog(dialog.Lines[0]);
     }
 
     public void HandleUpdate()
     {
         if (Input.GetKeyDown(KeyCode.Z) && !isTyping)
         {
-            ++ currentLine;
+            ++currentLine;
             if (currentLine < dialog.Lines.Count)
             {
-                StartCoroutine(TypeDialog(dialog.Lines[currentLine]));
+                StartCoroutine(TypeLocalizedDialog(dialog.Lines[currentLine]));
             }
             else
             {
@@ -50,16 +51,23 @@ public class DialogManagerA : MonoBehaviour
         }
     }
 
-    public IEnumerator TypeDialog(string line)
+    private IEnumerator TypeLocalizedDialog(LocalizedString localizedLine)
     {
         isTyping = true;
         dialogText.text = "";
+
+        // Fetch the localized string asynchronously
+        var stringOperation = localizedLine.GetLocalizedStringAsync();
+        yield return stringOperation;
+
+        string line = stringOperation.Result;
+
         foreach (var letter in line.ToCharArray())
         {
             dialogText.text += letter;
             yield return new WaitForSeconds(1f / lettersPerSecond);
         }
+
         isTyping = false;
-     
     }
 }

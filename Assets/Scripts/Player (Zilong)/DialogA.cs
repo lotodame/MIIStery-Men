@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization;
 
 [System.Serializable]
-
 public class DialogA
 {
-    [SerializeField] List<string> lines;
+    [SerializeField] private List<LocalizedString> lines;
 
-    public List<string> Lines
+    public List<LocalizedString> Lines
     {
         get { return lines; }
     }
