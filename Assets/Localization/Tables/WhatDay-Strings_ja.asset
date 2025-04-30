@@ -30,6 +30,10 @@ MonoBehaviour:
     m_Localized: "\u8A2D\u5B9A"
     m_Metadata:
       m_Items: []
+  - m_Id: 2536771236888576
+    m_Localized: hij zilong
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

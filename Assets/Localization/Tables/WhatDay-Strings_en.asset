@@ -30,6 +30,10 @@ MonoBehaviour:
     m_Localized: Settings
     m_Metadata:
       m_Items: []
+  - m_Id: 2536771236888576
+    m_Localized: hi zilong
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
