@@ -26,6 +26,10 @@ MonoBehaviour:
     m_Localized: WHAT DAY IS IT?
     m_Metadata:
       m_Items: []
+  - m_Id: 20597387264000
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
