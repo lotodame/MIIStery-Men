@@ -9,6 +9,13 @@ public class PlayerControllerA : MonoBehaviour
     public LayerMask interactableLayer;
     public LayerMask grassLayer;
 
+    public GameObject exclamationMark; // Assign in Inspector
+
+    public AudioClip exclamationSound;      // Drag your sound clip in the Inspector
+    private AudioSource audioSource;
+
+    private bool wasInteractableNearby = false;
+
     private bool isMoving;
     private Vector2 input;
 
@@ -17,6 +24,7 @@ public class PlayerControllerA : MonoBehaviour
     private void Awake()
     {
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
 
     }
 
@@ -46,7 +54,7 @@ public class PlayerControllerA : MonoBehaviour
         }
 
         animator.SetBool("isMoving", isMoving);
-
+        CheckForNearbyInteractables();
         if (Input.GetKeyDown(KeyCode.Z))
             Interact();
     }
@@ -99,4 +107,26 @@ public class PlayerControllerA : MonoBehaviour
             }
         } 
     }
+    void CheckForNearbyInteractables()
+    {
+        var facingDir = new Vector3(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+        var checkPos = transform.position + facingDir;
+
+        var collider = Physics2D.OverlapCircle(checkPos, 0.3f, interactableLayer);
+        bool isNearby = collider != null;
+
+        if (exclamationMark.activeSelf != isNearby)
+        {
+            exclamationMark.SetActive(isNearby);
+
+            // Only play sound when activating
+            if (isNearby && !wasInteractableNearby)
+            {
+                audioSource.PlayOneShot(exclamationSound);
+            }
+        }
+
+        wasInteractableNearby = isNearby;
+    }
+
 }
