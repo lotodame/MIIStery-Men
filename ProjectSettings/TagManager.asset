@@ -47,6 +47,9 @@ TagManager:
   - name: Foreground
     uniqueID: 3902856189
     locked: 0
+  - name: BEEG layer
+    uniqueID: 3675329457
+    locked: 0
   - name: Player
     uniqueID: 4162309851
     locked: 0
