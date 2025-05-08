@@ -618,8 +618,8 @@ MonoBehaviour:
   grassLayer:
     serializedVersion: 2
     m_Bits: 256
-  exclamationMark: {fileID: 1978442732}
-  exclamationSound: {fileID: 8300000, guid: 5270367b76b772c42b6d52da66c4980b, type: 3}
+  exclamationMark: {fileID: 0}
+  exclamationSound: {fileID: 0}
 --- !u!82 &374302439
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1188,7 +1188,7 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
-  phoneRinger: {fileID: 1105059322}
+  phoneRinger: {fileID: 0}
   references:
     version: 2
     RefIds: []
@@ -1756,8 +1756,8 @@ MonoBehaviour:
   dialogBox: {fileID: 1195440899}
   dialogText: {fileID: 483121862}
   lettersPerSecond: 45
-  dialogBlipSound: {fileID: 8300000, guid: 265cdac416da0664a883b5a9b2e98246, type: 3}
-  dialogAdvanceSound: {fileID: 8300000, guid: 3738cb5605b6ad6438497d6782df6380, type: 3}
+  dialogBlipSound: {fileID: 0}
+  dialogAdvanceSound: {fileID: 0}
 --- !u!114 &1041511437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8014,8 +8014,8 @@ Tilemap:
   - first: {x: -1, y: 7, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileIndex: 25
+      m_TileSpriteIndex: 4294967295
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8187,7 +8187,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: c6a7672eb9fdd33418199b488c8078e6, type: 2}
   - m_RefCount: 374
     m_Data: {fileID: 11400000, guid: 4e5e52a6d7a5c794caf78285d1bf601a, type: 2}
-  - m_RefCount: 28
+  - m_RefCount: 27
     m_Data: {fileID: 11400000, guid: 1c394978148194b449380000b6b20328, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 789c035581872cf43b276f24b79fd147, type: 2}
@@ -8233,8 +8233,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 70ca07ee51e0cd34d8d48680f7d89d07, type: 2}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: a882a3a36f1d969419d9cea8e1e1b802, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 9cc1e655debb31e41b87806e2d027409, type: 2}
   - m_RefCount: 1
@@ -8262,7 +8262,7 @@ Tilemap:
     m_Data: {fileID: 6422239022037467236, guid: 457d1ade8f441be428fdc1c3ed0912ce, type: 3}
   - m_RefCount: 374
     m_Data: {fileID: 1571914565433810510, guid: 457d1ade8f441be428fdc1c3ed0912ce, type: 3}
-  - m_RefCount: 28
+  - m_RefCount: 27
     m_Data: {fileID: 7860681094040978922, guid: 457d1ade8f441be428fdc1c3ed0912ce, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 4743761154464380012, guid: 457d1ade8f441be428fdc1c3ed0912ce, type: 3}
