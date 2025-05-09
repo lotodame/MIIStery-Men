@@ -10,12 +10,12 @@ public class PlayerControllerA : MonoBehaviour
     public LayerMask grassLayer;
 
     public GameObject exclamationMark; // Assign in Inspector
+    public GameObject settingsPanel;   // Assign in Inspector
 
-    public AudioClip exclamationSound;      // Drag your sound clip in the Inspector
+    public AudioClip exclamationSound; // Drag your sound clip in the Inspector
     private AudioSource audioSource;
 
     private bool wasInteractableNearby = false;
-
     private bool isMoving;
     private Vector2 input;
 
@@ -25,17 +25,31 @@ public class PlayerControllerA : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
-
     }
 
     public void HandleUpdate()
     {
+        // Toggle settings panel with Escape
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (settingsPanel != null)
+            {
+                bool isActive = settingsPanel.activeSelf;
+                settingsPanel.SetActive(!isActive);
+                Time.timeScale = isActive ? 1 : 0; // Pause/unpause the game
+            }
+        }
+
+        // Prevent movement/interactions when settings are open
+        if (settingsPanel != null && settingsPanel.activeSelf)
+            return;
+
         if (!isMoving)
         {
             input.x = Input.GetAxisRaw("Horizontal");
             input.y = Input.GetAxisRaw("Vertical");
 
-            //remove diagonal movement
+            // Remove diagonal movement
             if (input.x != 0) input.y = 0;
             if (input.y != 0) input.x = 0;
 
@@ -55,6 +69,7 @@ public class PlayerControllerA : MonoBehaviour
 
         animator.SetBool("isMoving", isMoving);
         CheckForNearbyInteractables();
+
         if (Input.GetKeyDown(KeyCode.Z))
             Interact();
     }
@@ -65,11 +80,10 @@ public class PlayerControllerA : MonoBehaviour
         var interactPos = transform.position + facingDir;
 
         var collider = Physics2D.OverlapCircle(interactPos, 0.3f, interactableLayer);
-        if (collider != null) 
+        if (collider != null)
         {
             collider.GetComponent<InteractableA>()?.Interact();
         }
-
     }
 
     IEnumerator Move(Vector3 targetPos)
@@ -81,12 +95,13 @@ public class PlayerControllerA : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
             yield return null;
         }
-        transform.position = targetPos;
 
+        transform.position = targetPos;
         isMoving = false;
 
         CheckForEncounters();
     }
+
     private bool IsWalkable(Vector3 targetPos)
     {
         if (Physics2D.OverlapCircle(targetPos, 0.2f, solidObjectsLayer | interactableLayer) != null)
@@ -105,8 +120,9 @@ public class PlayerControllerA : MonoBehaviour
             {
                 Debug.Log("Encountered a wild Pokemon");
             }
-        } 
+        }
     }
+
     void CheckForNearbyInteractables()
     {
         var facingDir = new Vector3(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
@@ -128,5 +144,4 @@ public class PlayerControllerA : MonoBehaviour
 
         wasInteractableNearby = isNearby;
     }
-
 }
