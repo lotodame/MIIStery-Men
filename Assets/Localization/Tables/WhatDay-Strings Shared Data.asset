@@ -39,6 +39,114 @@ MonoBehaviour:
     m_Key: longtest
     m_Metadata:
       m_Items: []
+  - m_Id: 6134465089368064
+    m_Key: interacting-with-phone-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6134526779191296
+    m_Key: interacting-with-phone-2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6134560757248000
+    m_Key: interacting-with-phone-3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6134579216379904
+    m_Key: interacting-with-phone-4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6134611525103616
+    m_Key: interacting-with-phone-5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6134631452241920
+    m_Key: interacting-with-phone-6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6134652243406848
+    m_Key: interacting-with-phone-7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6134673550471168
+    m_Key: interacting-with-phone-8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6134694278721536
+    m_Key: interacting-with-phone-9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6134713333444608
+    m_Key: interacting-with-phone-10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135569793544192
+    m_Key: interacting-with-journal-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135623568715776
+    m_Key: interacting-with-journal-2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135642334031872
+    m_Key: interacting-with-journal-3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135664505122816
+    m_Key: interacting-with-journal-4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135788111261696
+    m_Key: interacting-wtih-fridge-burrito-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135791869358080
+    m_Key: interacting-wtih-fridge-burrito-2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135882512461824
+    m_Key: interacting-wtih-fridge-burrito-3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135900187258880
+    m_Key: interacting-wtih-fridge-burrito-4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135922031194112
+    m_Key: interacting-wtih-fridge-burrito-5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6136081150504960
+    m_Key: interaction-with-newspaper-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6136121982054400
+    m_Key: interaction-with-newspaper-2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6136136456597504
+    m_Key: interaction-with-newspaper-3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6136151266684928
+    m_Key: interaction-with-newspaper-4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6136170417876992
+    m_Key: interaction-with-newspaper-5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6136307567423488
+    m_Key: after-screen-fade-to-black-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6136347140681728
+    m_Key: after-screen-fade-to-black-2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6136363343278080
+    m_Key: after-screen-fade-to-black-3
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -38,6 +38,129 @@ MonoBehaviour:
     m_Localized: hi zilong 2 e
     m_Metadata:
       m_Items: []
+  - m_Id: 6134465089368064
+    m_Localized: Hello?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6134526779191296
+    m_Localized: Hey dad! Sleep well?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6134560757248000
+    m_Localized: Oh, son. What are you calling so early for?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6134579216379904
+    m_Localized: Just wanted to make sure you weren't oversleeping for today!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6134611525103616
+    m_Localized: Today?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6134631452241920
+    m_Localized: ...You didn't forget, did you? Remember I'm picking you up in an
+      hour!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6134652243406848
+    m_Localized: '*crash!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6134673550471168
+    m_Localized: Oh, sorry dad, I'll call you back. Jiji just tried to flush herself
+      down the toilet. 3-year olds these days. Catch you later!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6134694278721536
+    m_Localized: '*click'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6134713333444608
+    m_Localized: Oh. I completely forgot what we're doing today. I should go over
+      to my journal and see if I wrote anything useful. It's right next to my bed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135569793544192
+    m_Localized: Let's see what I wrote for my To-Do list... "Free Comic Book Day?",
+      "Make a Big Bean Burrito?", no...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135623568715776
+    m_Localized: 'Looks like the last thing I wrote was... "Party-Timez." So... is
+      there a party today? Is it my birthday or something? '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135642334031872
+    m_Localized: You know, I know there's only an hour until he picks me up, but
+      I'm hungry. Maybe my memory will come back after I eat that nice big bean burrito
+      I made yesterday.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135664505122816
+    m_Localized: I hope I didn't forget and leave it on the table again...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135788111261696
+    m_Localized: Oh no! The Big Bean Burrito is on the table! Oh well. I'll eat it
+      anyway.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135791869358080
+    m_Localized: Jiji really liked that Bitsy Bean Burrito I made for her yesterday.
+      I remember she wanted me to make one for her. What day was I supposed to do
+      that again...?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135882512461824
+    m_Localized: Oh well. I'm just going to wolf down this big bad boy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135900187258880
+    m_Localized: '*munch munch snarf gulp'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6135922031194112
+    m_Localized: I don't really feel my memory jogging, but I'm sure it'll happen.
+      I think it's time to do my newspaper crosswords. I think I put
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6136081150504960
+    m_Localized: Let's see... 8-letter word for a streaming idol agency... I don't
+      know anything about that. How about this one?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6136121982054400
+    m_Localized: '"A ring, but not on your finger..." Haha, watching boxing as a
+      youth paid off, this one''s obviously "boxing!" Naoya Inoue is really tearing
+      it up these days.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6136136456597504
+    m_Localized: Speaking of boxing, Jiji always laughed when she saw it on the TV.
+      Which is a little concerning for a young-un. Wait, how old is she again?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6136151266684928
+    m_Localized: ...Oh shoot! Today is her birthday! That's what he was talking about!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6136170417876992
+    m_Localized: 'I better make that Bitsy Bean Burrito! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6136307567423488
+    m_Localized: This is looking great!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6136347140681728
+    m_Localized: '*ring ring! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6136363343278080
+    m_Localized: Looks like it's time to leave! Time for a fun day.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
