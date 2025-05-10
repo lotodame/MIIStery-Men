@@ -14,7 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Localization-Assets-Chinese (Simplified) (zh-Hans)
   m_GUID: 1a77eb52c65509d40bf6ffe6c22ade43
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 2e59ed6e130cc064b92293f72c521ad7
+    m_Address: baozi_object
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-Hans
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48d3ba9306a2642439d3feba6e2bc2c8
+    m_Address: burrito_zh
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-Hans
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54bb3a30726536140addf54da07971cb
+    m_Address: burrito_old_zh
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-Hans
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 359b63ec7e2b9e44d8f4197d9283738d, type: 2}
   m_SchemaSet:

@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 11713486487552
-    m_Localized: 'e8881947d1a1cfe468052283301a135b[burrito_old_en_0]'
+    m_Localized: '54bb3a30726536140addf54da07971cb[burrito_old_zh_0]'
     m_Metadata:
       m_Items: []
   - m_Id: 12486245056512
@@ -35,7 +35,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 13619034292224
-    m_Localized: 'bbbd4e1e1412346478f6fc7430c0a060[burrito_en_0]'
+    m_Localized: '48d3ba9306a2642439d3feba6e2bc2c8[burrito_zh_0]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52142777008128
+    m_Localized: '2e59ed6e130cc064b92293f72c521ad7[baozi_object_0]'
     m_Metadata:
       m_Items: []
   references:
