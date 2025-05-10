@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 431056191488
-    m_Localized: Start
+    m_Localized: Play Again?
     m_Metadata:
       m_Items: []
   - m_Id: 6121573285888
@@ -182,6 +182,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 6385258890231808
     m_Localized: Why am I here again? I think I should be somewhere else.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6442728652242944
+    m_Localized: Exit
     m_Metadata:
       m_Items: []
   references:
