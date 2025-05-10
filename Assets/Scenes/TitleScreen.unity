@@ -2945,6 +2945,14 @@ PrefabInstance:
       propertyPath: m_UpdateString.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3086584781528898069, guid: b21ba7ef602db25498cf2ddad2cfe7f6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 145.0094
+      objectReference: {fileID: 0}
+    - target: {fileID: 3086584781528898069, guid: b21ba7ef602db25498cf2ddad2cfe7f6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 375.91125
+      objectReference: {fileID: 0}
     - target: {fileID: 3094364664867701674, guid: b21ba7ef602db25498cf2ddad2cfe7f6, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
