@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97269afb30aa84742ae3f3342603618a, type: 3}
+  m_Name: What-Day-Assets_ja
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 6a91486fc5f25ca4b9f714960ce82020, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 38142181376
+    m_Localized: '5ef9cda46b1360a46bd2a2d926d37ee7[journal_zh_0]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11578153074688
+    m_Localized: '56a8e48436c835d47aafa4b635d116d2[phone 1_0]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11713486487552
+    m_Localized: 'e8881947d1a1cfe468052283301a135b[burrito_old_en_0]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12486245056512
+    m_Localized: '2a22b39feca3a9c4f83e2f5c880983be[newspaper 1_0]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13619034292224
+    m_Localized: 'bbbd4e1e1412346478f6fc7430c0a060[burrito_en_0]'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

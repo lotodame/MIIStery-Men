@@ -6,8 +6,11 @@ public class ItemController : MonoBehaviour, InteractableA
     [SerializeField] DialogA fallbackDialog;
     [SerializeField] int sequenceIndex;
 
-    [SerializeField] SequenceManager sequenceManager;
-    [SerializeField] PhoneRingController phoneRinger; // Only assign this on the phone item
+    [Header("Optional")]
+    [SerializeField] PhoneRingController phoneRinger; // Assign only if this is the phone
+    [SerializeField] bool isFinalItem = false; // Enable if this is the last item in sequence
+    [SerializeField] SceneOutroController outroController; // Assign only on the final item
+    [SerializeField] SequenceManager sequenceManager; // Drag in the SequenceManager from scene
 
     public void Interact()
     {
@@ -21,13 +24,19 @@ public class ItemController : MonoBehaviour, InteractableA
         {
             sequenceManager.Advance();
 
-            // ✅ Stop phone ringing only if this item has the ringer assigned
+            // Stop phone ringing if applicable
             if (phoneRinger != null)
             {
                 phoneRinger.StopRinging();
             }
 
             StartCoroutine(DialogManagerA.Instance.ShowDialog(correctDialog));
+
+            // If this is the final item, prepare for fade/transition AFTER dialog ends
+            if (isFinalItem && outroController != null)
+            {
+                outroController.PrepareForSceneEnd();
+            }
         }
         else
         {

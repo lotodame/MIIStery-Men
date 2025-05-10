@@ -4513,7 +4513,61 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctDialog:
-    lines: []
+    lines:
+    - m_TableReference:
+        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
+      m_TableEntryReference:
+        m_KeyId: 6136081150504960
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
+      m_TableEntryReference:
+        m_KeyId: 6136121982054400
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
+      m_TableEntryReference:
+        m_KeyId: 6136136456597504
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
+      m_TableEntryReference:
+        m_KeyId: 6136151266684928
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
+      m_TableEntryReference:
+        m_KeyId: 6136170417876992
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    soundEffects:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 8300000, guid: c83eb9d6d2a898a45909695c3ddac296, type: 3}
+    localizedImages:
+    - m_TableReference:
+        m_TableCollectionName: GUID:6a91486fc5f25ca4b9f714960ce82020
+      m_TableEntryReference:
+        m_KeyId: 12486245056512
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
   fallbackDialog:
     lines:
     - m_TableReference:
@@ -4524,9 +4578,13 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
+    soundEffects: []
+    localizedImages: []
   sequenceIndex: 3
-  sequenceManager: {fileID: 1203611775}
   phoneRinger: {fileID: 0}
+  isFinalItem: 1
+  outroController: {fileID: 1686851832}
+  sequenceManager: {fileID: 1203611775}
   references:
     version: 2
     RefIds: []
@@ -8331,6 +8389,22 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
+    soundEffects:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 8300000, guid: 9a81d108ce0253e478a53a308926b8d6, type: 3}
+    localizedImages:
+    - m_TableReference:
+        m_TableCollectionName: GUID:6a91486fc5f25ca4b9f714960ce82020
+      m_TableEntryReference:
+        m_KeyId: 11578153074688
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
   fallbackDialog:
     lines:
     - m_TableReference:
@@ -8341,9 +8415,13 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
+    soundEffects: []
+    localizedImages: []
   sequenceIndex: 0
-  sequenceManager: {fileID: 1203611775}
   phoneRinger: {fileID: 1105059322}
+  isFinalItem: 0
+  outroController: {fileID: 0}
+  sequenceManager: {fileID: 1203611775}
   references:
     version: 2
     RefIds: []
@@ -8454,11 +8532,13 @@ MonoBehaviour:
     - m_TableReference:
         m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
       m_TableEntryReference:
-        m_KeyId: 5110978109997056
+        m_KeyId: 6416994575548416
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
+    soundEffects: []
+    localizedImages: []
   screenFader: {fileID: 882369948}
   references:
     version: 2
@@ -8644,6 +8724,7 @@ MonoBehaviour:
   lettersPerSecond: 45
   dialogBlipSound: {fileID: 8300000, guid: 265cdac416da0664a883b5a9b2e98246, type: 3}
   dialogAdvanceSound: {fileID: 8300000, guid: 3738cb5605b6ad6438497d6782df6380, type: 3}
+  dialogImageDisplay: {fileID: 1162410693}
 --- !u!114 &1041511437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9026,6 +9107,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1162410691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1162410692}
+  - component: {fileID: 1162410694}
+  - component: {fileID: 1162410693}
+  m_Layer: 5
+  m_Name: DialogImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1162410692
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162410691}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1356317913}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 20}
+  m_SizeDelta: {x: 150, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1162410693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162410691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1162410694
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162410691}
+  m_CullTransparentMesh: 1
 --- !u!1 &1195440899
 GameObject:
   m_ObjectHideFlags: 0
@@ -9241,6 +9397,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1162410692}
   - {fileID: 1195440900}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9330,6 +9487,19 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
+    soundEffects:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    localizedImages:
+    - m_TableReference:
+        m_TableCollectionName: GUID:6a91486fc5f25ca4b9f714960ce82020
+      m_TableEntryReference:
+        m_KeyId: 38142181376
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
   fallbackDialog:
     lines:
     - m_TableReference:
@@ -9340,9 +9510,13 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
+    soundEffects: []
+    localizedImages: []
   sequenceIndex: 1
-  sequenceManager: {fileID: 1203611775}
   phoneRinger: {fileID: 0}
+  isFinalItem: 0
+  outroController: {fileID: 0}
+  sequenceManager: {fileID: 1203611775}
   references:
     version: 2
     RefIds: []
@@ -9868,6 +10042,92 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b21ba7ef602db25498cf2ddad2cfe7f6, type: 3}
+--- !u!1 &1686851831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1686851833}
+  - component: {fileID: 1686851832}
+  m_Layer: 0
+  m_Name: SceneOutroManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1686851832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686851831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5955f084cb169a74db06d8fffba7fc98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screenFader: {fileID: 882369948}
+  finalDialog:
+    lines:
+    - m_TableReference:
+        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
+      m_TableEntryReference:
+        m_KeyId: 6136307567423488
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
+      m_TableEntryReference:
+        m_KeyId: 6136347140681728
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
+      m_TableEntryReference:
+        m_KeyId: 6136363343278080
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    soundEffects:
+    - {fileID: 0}
+    - {fileID: 8300000, guid: 04a1aea1648357c4ba66a2efeed20aac, type: 3}
+    localizedImages:
+    - m_TableReference:
+        m_TableCollectionName: GUID:6a91486fc5f25ca4b9f714960ce82020
+      m_TableEntryReference:
+        m_KeyId: 13619034292224
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+  nextSceneName: Credits
+  references:
+    version: 2
+    RefIds: []
+--- !u!4 &1686851833
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686851831}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.508672, y: 2.2876377, z: -5.900928}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1769792552
 GameObject:
   m_ObjectHideFlags: 0
@@ -9916,7 +10176,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctDialog:
-    lines: []
+    lines:
+    - m_TableReference:
+        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
+      m_TableEntryReference:
+        m_KeyId: 6135788111261696
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
+      m_TableEntryReference:
+        m_KeyId: 6135791869358080
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
+      m_TableEntryReference:
+        m_KeyId: 6135882512461824
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
+      m_TableEntryReference:
+        m_KeyId: 6135900187258880
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
+      m_TableEntryReference:
+        m_KeyId: 6135922031194112
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    soundEffects:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 8300000, guid: f03af1b9486fa444d8cf52b60716327c, type: 3}
+    localizedImages:
+    - m_TableReference:
+        m_TableCollectionName: GUID:6a91486fc5f25ca4b9f714960ce82020
+      m_TableEntryReference:
+        m_KeyId: 11713486487552
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
   fallbackDialog:
     lines:
     - m_TableReference:
@@ -9927,9 +10240,13 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
+    soundEffects: []
+    localizedImages: []
   sequenceIndex: 2
-  sequenceManager: {fileID: 1203611775}
   phoneRinger: {fileID: 0}
+  isFinalItem: 0
+  outroController: {fileID: 0}
+  sequenceManager: {fileID: 1203611775}
   references:
     version: 2
     RefIds: []
@@ -10157,7 +10474,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!222 &1957320107
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11385,3 +11702,4 @@ SceneRoots:
   - {fileID: 777912621}
   - {fileID: 1957320109}
   - {fileID: 1203611774}
+  - {fileID: 1686851833}

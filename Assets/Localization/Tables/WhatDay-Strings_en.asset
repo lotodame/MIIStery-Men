@@ -30,14 +30,6 @@ MonoBehaviour:
     m_Localized: Settings
     m_Metadata:
       m_Items: []
-  - m_Id: 2536771236888576
-    m_Localized: hi zilong e
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2540047428714496
-    m_Localized: hi zilong 2 e
-    m_Metadata:
-      m_Items: []
   - m_Id: 6134465089368064
     m_Localized: 'Gramps:
 
@@ -184,8 +176,8 @@ MonoBehaviour:
     m_Localized: What Day is It?
     m_Metadata:
       m_Items: []
-  - m_Id: 5110978109997056
-    m_Localized: 
+  - m_Id: 6416994575548416
+    m_Localized: '*Ring ring! Ring ring!'
     m_Metadata:
       m_Items: []
   - m_Id: 6385258890231808

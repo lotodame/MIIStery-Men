@@ -15,10 +15,54 @@ MonoBehaviour:
   m_GroupName: Localization-Assets-Shared
   m_GUID: 34099324f9614e241ae2b7bcc4c22c5a
   m_SerializeEntries:
+  - m_GUID: 2a22b39feca3a9c4f83e2f5c880983be
+    m_Address: newspaper 1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-ja
+    - Locale-zh-Hans
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56a8e48436c835d47aafa4b635d116d2
+    m_Address: phone 1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-ja
+    - Locale-zh-Hans
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ef9cda46b1360a46bd2a2d926d37ee7
+    m_Address: journal_zh
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    - Locale-zh-Hans
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a91486fc5f25ca4b9f714960ce82020
+    m_Address: Assets/Localization/Tables/What-Day-Assets Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbbd4e1e1412346478f6fc7430c0a060
+    m_Address: burrito_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-ja
+    - Locale-zh-Hans
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c3cb18c189eeba1409c8d77bd371e099
     m_Address: Assets/Localization/Tables/WhatDay-Strings Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8881947d1a1cfe468052283301a135b
+    m_Address: burrito_old_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-ja
+    - Locale-zh-Hans
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 359b63ec7e2b9e44d8f4197d9283738d, type: 2}

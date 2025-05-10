@@ -27,18 +27,6 @@ MonoBehaviour:
     m_Key: settings
     m_Metadata:
       m_Items: []
-  - m_Id: 2536771236888576
-    m_Key: test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2540047428714496
-    m_Key: test 2
-    m_Metadata:
-      m_Items: []
-  - m_Id: 5110978109997056
-    m_Key: longtest
-    m_Metadata:
-      m_Items: []
   - m_Id: 6134465089368064
     m_Key: interacting-with-phone-1
     m_Metadata:
@@ -157,6 +145,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 6385258890231808
     m_Key: wrong-order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6416994575548416
+    m_Key: ring-ring-ring-ring-or-phone-sfx
     m_Metadata:
       m_Items: []
   m_Metadata:
