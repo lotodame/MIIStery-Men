@@ -8658,8 +8658,8 @@ MonoBehaviour:
   dialogBox: {fileID: 1195440899}
   dialogText: {fileID: 483121862}
   lettersPerSecond: 45
-  dialogBlipSound: {fileID: 0}
-  dialogAdvanceSound: {fileID: 0}
+  dialogBlipSound: {fileID: 8300000, guid: 265cdac416da0664a883b5a9b2e98246, type: 3}
+  dialogAdvanceSound: {fileID: 8300000, guid: 3738cb5605b6ad6438497d6782df6380, type: 3}
 --- !u!114 &1041511437
 MonoBehaviour:
   m_ObjectHideFlags: 0
