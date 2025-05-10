@@ -37,24 +37,35 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6134526779191296
-    m_Localized: Hey dad! Sleep well?
+    m_Localized: 'Son:
+
+      Hey dad! Sleep well?'
     m_Metadata:
       m_Items: []
   - m_Id: 6134560757248000
-    m_Localized: Oh, son. What are you calling so early for?
+    m_Localized: 'Gramps:
+
+      Oh, son. What are you calling so early for?'
     m_Metadata:
       m_Items: []
   - m_Id: 6134579216379904
-    m_Localized: Just wanted to make sure you weren't oversleeping for today!
+    m_Localized: 'Son:
+
+      Just wanted to make sure you weren''t oversleeping
+      for today!'
     m_Metadata:
       m_Items: []
   - m_Id: 6134611525103616
-    m_Localized: Today?
+    m_Localized: 'Gramps:
+
+      Today?'
     m_Metadata:
       m_Items: []
   - m_Id: 6134631452241920
-    m_Localized: ...You didn't forget, did you? Remember I'm picking you up in an
-      hour!
+    m_Localized: 'Son:
+
+      ...You didn''t forget, did you? Remember I''m picking
+      you up in an hour!'
     m_Metadata:
       m_Items: []
   - m_Id: 6134652243406848
@@ -62,8 +73,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6134673550471168
-    m_Localized: Oh, sorry dad, I'll call you back. Jiji just tried to flush herself
-      down the toilet. 3-year olds these days. Catch you later!
+    m_Localized: 'Son:
+
+      Oh, sorry dad, I''ll call you back. Jiji just tried
+      to flush herself down the toilet. 3-year olds these days. Catch you later!'
     m_Metadata:
       m_Items: []
   - m_Id: 6134694278721536
@@ -197,11 +210,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6471882044469248
-    m_Localized: Music Volumn
+    m_Localized: Music Volume
     m_Metadata:
       m_Items: []
   - m_Id: 6472011237421056
     m_Localized: Exit Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6474852545728512
+    m_Localized: Close
     m_Metadata:
       m_Items: []
   references:

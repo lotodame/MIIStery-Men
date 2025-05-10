@@ -164,11 +164,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6471882044469248
-    m_Key: music-volumn
+    m_Key: music-volume
     m_Metadata:
       m_Items: []
   - m_Id: 6472011237421056
     m_Key: exit-game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6474852545728512
+    m_Key: close
     m_Metadata:
       m_Items: []
   m_Metadata:
