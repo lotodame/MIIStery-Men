@@ -192,6 +192,18 @@ MonoBehaviour:
     m_Localized: Start
     m_Metadata:
       m_Items: []
+  - m_Id: 6471394758619136
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6471882044469248
+    m_Localized: Music Volumn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6472011237421056
+    m_Localized: Exit Game
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

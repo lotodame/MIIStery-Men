@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      burrito_en_0: 4671574473076974506
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

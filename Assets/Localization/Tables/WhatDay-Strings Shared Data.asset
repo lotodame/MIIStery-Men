@@ -159,6 +159,18 @@ MonoBehaviour:
     m_Key: start
     m_Metadata:
       m_Items: []
+  - m_Id: 6471394758619136
+    m_Key: language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6471882044469248
+    m_Key: music-volumn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6472011237421056
+    m_Key: exit-game
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
