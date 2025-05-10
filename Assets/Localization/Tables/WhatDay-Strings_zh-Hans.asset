@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 431056191488
-    m_Localized: "\u5F00\u59CB"
+    m_Localized: "\uFFFDE\uFFFD\uFFFD\uFFFDE\uFFFD\uFFFDE"
     m_Metadata:
       m_Items: []
   - m_Id: 2536771236888576
@@ -72,6 +72,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 6134713333444608
     m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6275686401970176
+    m_Localized: WHat Day is It?~~~
     m_Metadata:
       m_Items: []
   references:

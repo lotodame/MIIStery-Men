@@ -161,6 +161,31 @@ MonoBehaviour:
     m_Localized: Looks like it's time to leave! Time for a fun day.
     m_Metadata:
       m_Items: []
+  - m_Id: 6275738994348032
+    m_Localized: 'Programmer
+
+      Aaron Long
+
+
+      Programmer
+
+      Zilong Yi
+
+
+      Artist
+
+      Brian
+      Hsieh'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6275686401970176
+    m_Localized: What Day is It?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5110978109997056
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

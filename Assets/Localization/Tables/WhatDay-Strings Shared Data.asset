@@ -21,6 +21,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 6121573285888
     m_Key: whatdayisit
+    m_Key: what-day-is-it
     m_Metadata:
       m_Items: []
   - m_Id: 20597387264000
@@ -145,6 +146,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 6136363343278080
     m_Key: after-screen-fade-to-black-3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6275686401970176
+    m_Key: credits-title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6275738994348032
+    m_Key: credits-names
     m_Metadata:
       m_Items: []
   m_Metadata:
