@@ -35,6 +35,10 @@ MonoBehaviour:
     m_Key: burrito-clean
     m_Metadata:
       m_Items: []
+  - m_Id: 52142777008128
+    m_Key: Table-Burrito
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 1101271087762899070
@@ -72,6 +76,11 @@ MonoBehaviour:
           - en
           - ja
         - m_KeyId: 13619034292224
+          m_TableCodes:
+          - zh-Hans
+          - en
+          - ja
+        - m_KeyId: 52142777008128
           m_TableCodes:
           - zh-Hans
           - en

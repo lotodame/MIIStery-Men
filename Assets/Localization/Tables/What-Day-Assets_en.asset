@@ -38,6 +38,10 @@ MonoBehaviour:
     m_Localized: 'bbbd4e1e1412346478f6fc7430c0a060[burrito_en_0]'
     m_Metadata:
       m_Items: []
+  - m_Id: 52142777008128
+    m_Localized: '29c4f520f335d744dbd4a6fbd3631348[indoor_objects_2]'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

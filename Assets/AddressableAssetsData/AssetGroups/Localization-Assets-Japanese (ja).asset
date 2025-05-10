@@ -14,7 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Localization-Assets-Japanese (ja)
   m_GUID: 5175bcddb73807d45b9a3978f70df720
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 260afe67e62fdf74fb83a0d9b577230f
+    m_Address: burrito_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f4668c1feb251d4bb23da893ac6831e
+    m_Address: onigiri_object
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfb331a6281906b4b97665004eaa368e
+    m_Address: burrito_old_ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 359b63ec7e2b9e44d8f4197d9283738d, type: 2}
   m_SchemaSet:
