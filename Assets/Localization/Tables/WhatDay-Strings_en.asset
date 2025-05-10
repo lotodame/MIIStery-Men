@@ -39,7 +39,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6134465089368064
-    m_Localized: Hello?
+    m_Localized: 'Gramps:
+
+      Hello?'
     m_Metadata:
       m_Items: []
   - m_Id: 6134526779191296
@@ -184,6 +186,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 5110978109997056
     m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6385258890231808
+    m_Localized: Why am I here again? I think I should be somewhere else.
     m_Metadata:
       m_Items: []
   references:

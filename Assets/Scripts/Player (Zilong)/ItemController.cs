@@ -2,19 +2,36 @@ using UnityEngine;
 
 public class ItemController : MonoBehaviour, InteractableA
 {
-    [SerializeField] DialogA dialog;
+    [SerializeField] DialogA correctDialog;
+    [SerializeField] DialogA fallbackDialog;
+    [SerializeField] int sequenceIndex;
 
-    // Optional: Only assign this if the item is the Phone
-    [SerializeField] PhoneRingController phoneRinger;
+    [SerializeField] SequenceManager sequenceManager;
+    [SerializeField] PhoneRingController phoneRinger; // Only assign this on the phone item
 
     public void Interact()
     {
-        // Only stop ringing if this item has a reference to the phone ringer
-        if (phoneRinger != null)
+        if (sequenceManager == null)
         {
-            phoneRinger.StopRinging();
+            Debug.LogWarning("SequenceManager not assigned.");
+            return;
         }
 
-        StartCoroutine(DialogManagerA.Instance.ShowDialog(dialog));
+        if (sequenceManager.IsCorrectStep(sequenceIndex))
+        {
+            sequenceManager.Advance();
+
+            // ✅ Stop phone ringing only if this item has the ringer assigned
+            if (phoneRinger != null)
+            {
+                phoneRinger.StopRinging();
+            }
+
+            StartCoroutine(DialogManagerA.Instance.ShowDialog(correctDialog));
+        }
+        else
+        {
+            StartCoroutine(DialogManagerA.Instance.ShowDialog(fallbackDialog));
+        }
     }
 }

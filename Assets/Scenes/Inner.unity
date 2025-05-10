@@ -4512,48 +4512,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31f803f83d9204447ab61328a97ebe0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialog:
+  correctDialog:
+    lines: []
+  fallbackDialog:
     lines:
     - m_TableReference:
         m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
       m_TableEntryReference:
-        m_KeyId: 6136081150504960
+        m_KeyId: 6385258890231808
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
-    - m_TableReference:
-        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
-      m_TableEntryReference:
-        m_KeyId: 6136121982054400
-        m_Key: 
-      m_FallbackState: 0
-      m_WaitForCompletion: 0
-      m_LocalVariables: []
-    - m_TableReference:
-        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
-      m_TableEntryReference:
-        m_KeyId: 6136136456597504
-        m_Key: 
-      m_FallbackState: 0
-      m_WaitForCompletion: 0
-      m_LocalVariables: []
-    - m_TableReference:
-        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
-      m_TableEntryReference:
-        m_KeyId: 6136151266684928
-        m_Key: 
-      m_FallbackState: 0
-      m_WaitForCompletion: 0
-      m_LocalVariables: []
-    - m_TableReference:
-        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
-      m_TableEntryReference:
-        m_KeyId: 6136170417876992
-        m_Key: 
-      m_FallbackState: 0
-      m_WaitForCompletion: 0
-      m_LocalVariables: []
+  sequenceIndex: 3
+  sequenceManager: {fileID: 1203611775}
   phoneRinger: {fileID: 0}
   references:
     version: 2
@@ -8277,7 +8249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31f803f83d9204447ab61328a97ebe0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialog:
+  correctDialog:
     lines:
     - m_TableReference:
         m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
@@ -8359,6 +8331,18 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
+  fallbackDialog:
+    lines:
+    - m_TableReference:
+        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
+      m_TableEntryReference:
+        m_KeyId: 6385258890231808
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+  sequenceIndex: 0
+  sequenceManager: {fileID: 1203611775}
   phoneRinger: {fileID: 1105059322}
   references:
     version: 2
@@ -9127,6 +9111,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1203611774}
+  - component: {fileID: 1203611775}
   m_Layer: 0
   m_Name: SequenceManager
   m_TagString: Untagged
@@ -9149,6 +9134,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1203611775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203611773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f8fee91227d7cb449bbb351ccd26526, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentStep: 0
 --- !u!1 &1356317909
 GameObject:
   m_ObjectHideFlags: 0
@@ -9298,7 +9296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31f803f83d9204447ab61328a97ebe0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialog:
+  correctDialog:
     lines:
     - m_TableReference:
         m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
@@ -9332,14 +9330,18 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
+  fallbackDialog:
+    lines:
     - m_TableReference:
         m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
       m_TableEntryReference:
-        m_KeyId: 6134713333444608
+        m_KeyId: 6385258890231808
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
+  sequenceIndex: 1
+  sequenceManager: {fileID: 1203611775}
   phoneRinger: {fileID: 0}
   references:
     version: 2
@@ -9913,48 +9915,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31f803f83d9204447ab61328a97ebe0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialog:
+  correctDialog:
+    lines: []
+  fallbackDialog:
     lines:
     - m_TableReference:
         m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
       m_TableEntryReference:
-        m_KeyId: 6135788111261696
+        m_KeyId: 6385258890231808
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
-    - m_TableReference:
-        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
-      m_TableEntryReference:
-        m_KeyId: 6135791869358080
-        m_Key: 
-      m_FallbackState: 0
-      m_WaitForCompletion: 0
-      m_LocalVariables: []
-    - m_TableReference:
-        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
-      m_TableEntryReference:
-        m_KeyId: 6135882512461824
-        m_Key: 
-      m_FallbackState: 0
-      m_WaitForCompletion: 0
-      m_LocalVariables: []
-    - m_TableReference:
-        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
-      m_TableEntryReference:
-        m_KeyId: 6135900187258880
-        m_Key: 
-      m_FallbackState: 0
-      m_WaitForCompletion: 0
-      m_LocalVariables: []
-    - m_TableReference:
-        m_TableCollectionName: GUID:c3cb18c189eeba1409c8d77bd371e099
-      m_TableEntryReference:
-        m_KeyId: 6135922031194112
-        m_Key: 
-      m_FallbackState: 0
-      m_WaitForCompletion: 0
-      m_LocalVariables: []
+  sequenceIndex: 2
+  sequenceManager: {fileID: 1203611775}
   phoneRinger: {fileID: 0}
   references:
     version: 2
